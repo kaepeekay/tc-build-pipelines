@@ -12,4 +12,14 @@ public class MyUnitTest {
     void some_unit_test() {
         assertThat(5).isEqualTo(5);
     }
+
+    @Test
+    void another_unit_test() {
+        assertThat(6).isEqualTo(6);
+    }
+
+    @Test
+    void and_one_more() {
+        assertThat(7).isEqualTo(7);
+    }
 }

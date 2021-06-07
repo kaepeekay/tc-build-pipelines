@@ -8,6 +8,6 @@ public class MyUiTest {
 
     @Test
     public void run_a_selenium_test() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(2500);
     }
 }
