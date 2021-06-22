@@ -16,7 +16,7 @@ public class WebController {
     @Autowired
     private DataSource dataSource;
 
-    @GetMapping("/info")
+    @GetMapping("/")
     public Map<String, Object> info() throws SQLException {
         try (final Connection connection = dataSource.getConnection()) {
             final DatabaseMetaData metadata = connection.getMetaData();
